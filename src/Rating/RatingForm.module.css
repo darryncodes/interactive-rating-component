@@ -1,0 +1,61 @@
+fieldset {
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[name='input'] {
+  transform: scale(0);
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 3rem;
+  background-color: var(--clr-blue);
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.25rem;
+  padding-top: 0.25rem;
+  transition: all ease-in-out 0.3s;
+}
+
+.btn:hover {
+  background: var(--clr-accent);
+  color: var(--clr-white);
+}
+
+input:checked ~ .btn {
+  background-color: var(--clr-light);
+  color: var(--clr-white);
+}
+
+.submit {
+  outline: none;
+  border: none;
+  background-color: var(--clr-accent);
+  color: var(--clr-white);
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  width: 100%;
+  margin-top: 1.5rem;
+  padding-top: 0.85rem;
+  padding-bottom: 0.55rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+
+.submit:hover {
+  background: var(--clr-white);
+  color: var(--clr-accent);
+}
+
+.submit:focus {
+  outline: 2px solid var(--clr-white);
+  border-radius: 2rem;
+  transition: none;
+}

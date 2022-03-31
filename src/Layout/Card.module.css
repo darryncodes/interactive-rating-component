@@ -1,0 +1,23 @@
+.card {
+  min-width: 22rem;
+  max-width: 22rem;
+  min-height: 24rem;
+  background-image: linear-gradient(
+    var(--clr-blue-2) 20%,
+    hsl(216, 12%, 11%) 100%
+  );
+  border-radius: 1rem;
+  padding: 1.6rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .card {
+    max-width: 23rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .card {
+    max-width: 24rem;
+  }
+}
