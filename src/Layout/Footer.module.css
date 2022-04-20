@@ -1,0 +1,18 @@
+.attribution {
+  margin-top: 2.5rem;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.attribution__link {
+  color: var(--clr-white);
+}
+
+.attribution__link:hover {
+  text-decoration: none;
+}
+
+.attribution__link:focus {
+  outline: 2px solid var(--clr-white);
+  border-radius: 0.125rem;
+}
