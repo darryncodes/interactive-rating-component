@@ -11,10 +11,10 @@
   font-size: 0.875rem;
   color: var(--clr-accent);
   background-color: var(--clr-blue);
-  width: 60%;
+  width: 55%;
   margin: 1rem auto;
-  padding-top: 0.5rem;
-  padding-bottom: 0.2rem;
+  padding-top: 0.65rem;
+  padding-bottom: 0.35rem;
   border-radius: 2rem;
 }
 

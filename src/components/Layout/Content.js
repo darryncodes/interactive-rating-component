@@ -1,13 +1,13 @@
 import React from 'react';
 import RatingForm from '../Rating/RatingForm';
 
+import icon from '../../img/icon-star.svg';
 import styles from './Content.module.css';
 
 const Content = props => {
   const saveRatingDataHandler = enteredRatingData => {
     const ratingData = {
       ...enteredRatingData,
-      id: Math.random().toString(),
     };
     props.onAddRating(ratingData);
   };
@@ -15,7 +15,7 @@ const Content = props => {
   return (
     <>
       <div className={styles.content__icon}>
-        <img src="../img/icon-star.svg" alt="" />
+        <img src={icon} alt="" />
       </div>
       <h1 className={styles.content__heading}>How did we do?</h1>
       <p>
