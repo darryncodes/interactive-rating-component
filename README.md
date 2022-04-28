@@ -10,6 +10,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
@@ -44,6 +45,10 @@ Users should be able to:
 - Create React App
 - Mobile-first workflow
 - BEM methodology
+
+### What I learned
+
+An excellent opportunity to work with React. In particular passing data down with props, raising state up, useState, create react app and focussing on an accessible design with thw use of fieldset, radio inputs and hover/focus states.
 
 ## Author
 
