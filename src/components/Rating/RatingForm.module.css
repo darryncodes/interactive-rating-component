@@ -39,20 +39,12 @@ input:checked ~ .btn {
   background-color: var(--clr-accent);
   color: var(--clr-white);
   text-transform: uppercase;
-<<<<<<< HEAD
   font-size: 1rem;
   letter-spacing: 2px;
   width: 100%;
   margin-top: 1.5rem;
   padding-top: 0.75rem;
   padding-bottom: 0.45rem;
-=======
-  font-size: 1.4rem;
-  width: 100%;
-  margin-top: 1.5rem;
-  padding-top: 0.85rem;
-  padding-bottom: 0.55rem;
->>>>>>> 90eb7576f7521085899b425e815c1427d5f87132
   border-radius: 2rem;
   cursor: pointer;
   transition: all ease-in-out 0.3s;

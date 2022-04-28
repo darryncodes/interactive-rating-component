@@ -11,17 +11,10 @@
   font-size: 0.875rem;
   color: var(--clr-accent);
   background-color: var(--clr-blue);
-<<<<<<< HEAD
   width: 55%;
   margin: 1rem auto;
   padding-top: 0.65rem;
   padding-bottom: 0.35rem;
-=======
-  width: 60%;
-  margin: 1rem auto;
-  padding-top: 0.5rem;
-  padding-bottom: 0.2rem;
->>>>>>> 90eb7576f7521085899b425e815c1427d5f87132
   border-radius: 2rem;
 }
 
