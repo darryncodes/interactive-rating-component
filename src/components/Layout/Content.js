@@ -1,20 +1,12 @@
 import React from 'react';
 import RatingForm from '../Rating/RatingForm';
 
-<<<<<<< HEAD
-import icon from '../../img/icon-star.svg';
-=======
->>>>>>> 90eb7576f7521085899b425e815c1427d5f87132
 import styles from './Content.module.css';
 
 const Content = props => {
   const saveRatingDataHandler = enteredRatingData => {
     const ratingData = {
       ...enteredRatingData,
-<<<<<<< HEAD
-=======
-      id: Math.random().toString(),
->>>>>>> 90eb7576f7521085899b425e815c1427d5f87132
     };
     props.onAddRating(ratingData);
   };
@@ -22,11 +14,7 @@ const Content = props => {
   return (
     <>
       <div className={styles.content__icon}>
-<<<<<<< HEAD
-        <img src={icon} alt="" />
-=======
-        <img src="../img/icon-star.svg" alt="" />
->>>>>>> 90eb7576f7521085899b425e815c1427d5f87132
+        <img src="../../img/icon-star.svg" alt="" />
       </div>
       <h1 className={styles.content__heading}>How did we do?</h1>
       <p>
